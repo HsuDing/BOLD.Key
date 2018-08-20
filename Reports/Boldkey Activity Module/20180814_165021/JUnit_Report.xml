@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Boldkey Activity Module" time="72" tests="1" failures="2" errors="0">
+   <testsuite name="Boldkey Activity Module" tests="1" failures="2" errors="0" time="72" timestamp="2018-08-14 16:50:25" hostname="olivia.chong - Olivia0517.mk.macrokiosk.com" id="Test Suites/Boldkey Activity Module">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\Boldkey Activity Module\\20180814_165021"/>
+         <property name="logFiles" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\Boldkey Activity Module\\20180814_165021\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="olivia.chong - Olivia0517.mk.macrokiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.2.72"/>
+         <property name="sessionId" value="c0b8f3e93e7b9e516ba24e2e0ba09e95"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent" classname="Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent" status="PASSED">
+         <system-out><![CDATA[2018-08-14 16:50:26 - [TEST_CASE][PASSED] - Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent: Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent
+
+2018-08-14 16:50:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-08-14 16:50:27 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Open Browser: Test Cases/Bold Key Login Page/Open Browser
+
+2018-08-14 16:50:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-14 16:50:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-14 16:50:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-08-14 16:50:46 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-08-14 16:50:46 - [TEST_STEP][PASSED] - Statement - openBrowser = true: null
+
+2018-08-14 16:50:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-08-14 16:50:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-08-14 16:50:46 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-08-14 16:50:46 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-08-14 16:50:47 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-08-14 16:50:47 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-08-14 16:50:47 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-08-14 16:50:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-08-14 16:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-08-14 16:50:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-14 16:50:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-14 16:50:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-08-14 16:50:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Activity/a_Activity (4)' is clicked on
+
+2018-08-14 16:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Activity/a_Activity (4)' is clicked on
+
+2018-08-14 16:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_Activity (4)' is clicked on
+
+2018-08-14 16:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_Activity (4)' is clicked on
+
+2018-08-14 16:50:59 - [TEST_STEP][PASSED] - setText: Text 'Olivia Activity' is set on object 'Object Repository/Boldkey Activity Listing/Add Activity/input_txt_ActivityName (1)'
+
+2018-08-14 16:50:59 - [MESSAGE][PASSED] - Text 'Olivia Activity' is set on object 'Object Repository/Boldkey Activity Listing/Add Activity/input_txt_ActivityName (1)'
+
+2018-08-14 16:50:59 - [TEST_STEP][PASSED] - setText: Text 'Test Description' is set on object 'Object Repository/Boldkey Activity Listing/Add Activity/input_txt_ActivityDescription (1)'
+
+2018-08-14 16:51:00 - [MESSAGE][PASSED] - Text 'Test Description' is set on object 'Object Repository/Boldkey Activity Listing/Add Activity/input_txt_ActivityDescription (1)'
+
+2018-08-14 16:51:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-14 16:51:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-14 16:51:02 - [TEST_STEP][PASSED] - Statement - If (inputChannels.toLowerCase() == "false"): null
+
+2018-08-14 16:51:02 - [TEST_STEP][PASSED] - Statement - Else If (inputChannels.toLowerCase() == "true"): Object: 'Object Repository/checkbox_consent' is clicked on
+
+2018-08-14 16:51:02 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/checkbox_consent), 2, OPTIONAL)): Object: 'Object Repository/checkbox_consent' is clicked on
+
+2018-08-14 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/checkbox_consent' is not checked
+
+2018-08-14 16:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/checkbox_consent' is clicked on
+
+2018-08-14 16:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/checkbox_consent' is clicked on
+
+2018-08-14 16:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_Next (4)' is clicked on
+
+2018-08-14 16:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_Next (4)' is clicked on
+
+2018-08-14 16:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_OK (1)' is clicked on
+
+2018-08-14 16:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_OK (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boldkey Activity Module/Add Template Page/Add new template - All Steps" classname="Test Cases/Boldkey Activity Module/Add Template Page/Add new template - All Steps" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'TestMul1' of object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_template_name (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @id = 'txt_template_name' and @name = 'txt_template_name' and @placeholder = 'Name of the Template']})"/>
+         <system-out><![CDATA[2018-08-14 16:51:03 - [TEST_CASE][FAILED] - Test Cases/Boldkey Activity Module/Add Template Page/Add new template - All Steps: Test Cases/Boldkey Activity Module/Add Template Page/Add new template - All Steps FAILED because (of) Unable to set text 'TestMul1' of object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_template_name (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @id = 'txt_template_name' and @name = 'txt_template_name' and @placeholder = 'Name of the Template']})
+
+2018-08-14 16:51:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-14 16:51:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-14 16:51:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-14 16:51:07 - [TEST_STEP][FAILED] - setText: Unable to set text 'TestMul1' of object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_template_name (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @id = 'txt_template_name' and @name = 'txt_template_name' and @placeholder = 'Name of the Template']})
+
+2018-08-14 16:51:28 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-08-14 16:51:28 - [MESSAGE][FAILED] - Unable to set text 'TestMul1' of object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_template_name (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @id = 'txt_template_name' and @name = 'txt_template_name' and @placeholder = 'Name of the Template']})]]></system-out>
+         <system-err><![CDATA[2018-08-14 16:51:03 - [TEST_CASE][FAILED] - Test Cases/Boldkey Activity Module/Add Template Page/Add new template - All Steps: Test Cases/Boldkey Activity Module/Add Template Page/Add new template - All Steps FAILED because (of) Unable to set text 'TestMul1' of object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_template_name (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @id = 'txt_template_name' and @name = 'txt_template_name' and @placeholder = 'Name of the Template']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boldkey Activity Module/Add Template Page/Add new template - Multiple" classname="Test Cases/Boldkey Activity Module/Add Template Page/Add new template - Multiple" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Boldkey Activity Listing/Add Template/i_fa fa-plus-circle (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=id(&quot;LayoutController&quot;)/div[@id=&quot;wrapper&quot;]/div[@class=&quot;content-page&quot;]/div[@class=&quot;content&quot;]/div[1]/div[@id=&quot;wrapper&quot;]/div[@class=&quot;page-heading&quot;]/div[@class=&quot;col-md-3 col-sm-3 col-xs-12 pull-right&quot;]/ul[@class=&quot;nav navbar-nav navbar-right top-navbar hoverdisable&quot;]/li[@class=&quot;dropdown topbar-profile&quot;]/a[@class=&quot;btn-primary dropdown-toggle&quot;]/i[@class=&quot;fa fa-plus-circle&quot;]})"/>
+         <system-out><![CDATA[2018-08-14 16:51:28 - [TEST_CASE][FAILED] - Test Cases/Boldkey Activity Module/Add Template Page/Add new template - Multiple: Test Cases/Boldkey Activity Module/Add Template Page/Add new template - Multiple FAILED because (of) Unable to click on object 'Object Repository/Boldkey Activity Listing/Add Template/i_fa fa-plus-circle (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=id("LayoutController")/div[@id="wrapper"]/div[@class="content-page"]/div[@class="content"]/div[1]/div[@id="wrapper"]/div[@class="page-heading"]/div[@class="col-md-3 col-sm-3 col-xs-12 pull-right"]/ul[@class="nav navbar-nav navbar-right top-navbar hoverdisable"]/li[@class="dropdown topbar-profile"]/a[@class="btn-primary dropdown-toggle"]/i[@class="fa fa-plus-circle"]})
+
+2018-08-14 16:51:29 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Boldkey Activity Listing/Add Template/i_fa fa-plus-circle (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=id("LayoutController")/div[@id="wrapper"]/div[@class="content-page"]/div[@class="content"]/div[1]/div[@id="wrapper"]/div[@class="page-heading"]/div[@class="col-md-3 col-sm-3 col-xs-12 pull-right"]/ul[@class="nav navbar-nav navbar-right top-navbar hoverdisable"]/li[@class="dropdown topbar-profile"]/a[@class="btn-primary dropdown-toggle"]/i[@class="fa fa-plus-circle"]})
+
+2018-08-14 16:51:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-08-14 16:51:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Boldkey Activity Listing/Add Template/i_fa fa-plus-circle (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=id("LayoutController")/div[@id="wrapper"]/div[@class="content-page"]/div[@class="content"]/div[1]/div[@id="wrapper"]/div[@class="page-heading"]/div[@class="col-md-3 col-sm-3 col-xs-12 pull-right"]/ul[@class="nav navbar-nav navbar-right top-navbar hoverdisable"]/li[@class="dropdown topbar-profile"]/a[@class="btn-primary dropdown-toggle"]/i[@class="fa fa-plus-circle"]})]]></system-out>
+         <system-err><![CDATA[2018-08-14 16:51:28 - [TEST_CASE][FAILED] - Test Cases/Boldkey Activity Module/Add Template Page/Add new template - Multiple: Test Cases/Boldkey Activity Module/Add Template Page/Add new template - Multiple FAILED because (of) Unable to click on object 'Object Repository/Boldkey Activity Listing/Add Template/i_fa fa-plus-circle (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=id("LayoutController")/div[@id="wrapper"]/div[@class="content-page"]/div[@class="content"]/div[1]/div[@id="wrapper"]/div[@class="page-heading"]/div[@class="col-md-3 col-sm-3 col-xs-12 pull-right"]/ul[@class="nav navbar-nav navbar-right top-navbar hoverdisable"]/li[@class="dropdown topbar-profile"]/a[@class="btn-primary dropdown-toggle"]/i[@class="fa fa-plus-circle"]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-14 16:50:25 - [TEST_SUITE][FAILED] - Boldkey Activity Module: Test Cases/Boldkey Activity Module/Add Template Page/Add new template - All Steps FAILED because (of) Unable to set text 'TestMul1' of object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_template_name (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @id = 'txt_template_name' and @name = 'txt_template_name' and @placeholder = 'Name of the Template']})]]></system-out>
+      <system-err><![CDATA[2018-08-14 16:50:25 - [TEST_SUITE][FAILED] - Boldkey Activity Module: Test Cases/Boldkey Activity Module/Add Template Page/Add new template - All Steps FAILED because (of) Unable to set text 'TestMul1' of object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_template_name (2)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0b8f3e93e7b9e516ba24e2e0ba09e95
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @id = 'txt_template_name' and @name = 'txt_template_name' and @placeholder = 'Name of the Template']})]]></system-err>
+   </testsuite>
+</testsuites>

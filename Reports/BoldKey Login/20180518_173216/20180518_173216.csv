@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BoldKey Login,Chrome 66.0.3359.139,,2018-05-18 17:32:18,2018-05-18 17:32:52,33.447s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Login Page - Enter,Chrome 66.0.3359.139,,2018-05-18 17:32:19,2018-05-18 17:32:51,32.166s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-18 17:32:20,2018-05-18 17:32:24,3.820s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-18 17:32:24,2018-05-18 17:32:50,26.461s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-18 17:32:50,2018-05-18 17:32:51,0.432s,FAILED

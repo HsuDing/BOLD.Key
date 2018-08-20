@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new activity - No select consent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>446537e7-bebd-4999-b000-9e083fc57bd5</testCaseGuid>
+   <variable>
+      <defaultValue>'Olivia Test'</defaultValue>
+      <description></description>
+      <id>da94bbcf-b6fa-4e13-a550-e6c0d1a14428</id>
+      <masked>false</masked>
+      <name>inputActivityName</name>
+   </variable>
+   <variable>
+      <defaultValue>'No Channels 2'</defaultValue>
+      <description></description>
+      <id>6fe5141e-f2c5-4d89-9b56-7d171079660f</id>
+      <masked>false</masked>
+      <name>inputDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'false'</defaultValue>
+      <description></description>
+      <id>5a303538-c7bd-4da6-986a-2b9b2840e0c8</id>
+      <masked>false</masked>
+      <name>inputChannels</name>
+   </variable>
+</TestCaseEntity>

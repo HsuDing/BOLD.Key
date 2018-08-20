@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new template - One</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52ba5074-f39b-4f4d-8259-62806eb67e92</testCaseGuid>
+   <variable>
+      <defaultValue>'Olivia Test Temp'</defaultValue>
+      <description></description>
+      <id>6d985080-3d08-4959-80dc-e2bd2dc41ca7</id>
+      <masked>false</masked>
+      <name>inputTemplateName</name>
+   </variable>
+   <variable>
+      <defaultValue>'120'</defaultValue>
+      <description></description>
+      <id>27c5c0d3-d415-4963-a4ff-530ce883ad87</id>
+      <masked>false</masked>
+      <name>inputValidityPeriod</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing for add new template'</defaultValue>
+      <description></description>
+      <id>e092377b-693d-47e0-b1f0-718052282b17</id>
+      <masked>false</masked>
+      <name>inputMessageTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Trusted Act'</defaultValue>
+      <description></description>
+      <id>4e8fed6a-72a5-4113-b5c8-b636f4a440da</id>
+      <masked>false</masked>
+      <name>inputActivityName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Perform testing for add new activity'</defaultValue>
+      <description></description>
+      <id>5e5949ca-8819-460a-ab01-a652369b7084</id>
+      <masked>false</masked>
+      <name>inputDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>fe5596c2-f1f6-4516-b101-c7b00d67059a</id>
+      <masked>false</masked>
+      <name>inputChannels</name>
+   </variable>
+</TestCaseEntity>

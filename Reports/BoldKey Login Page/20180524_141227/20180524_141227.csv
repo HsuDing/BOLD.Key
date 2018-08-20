@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BoldKey Login Page,Firefox 57.0,,2018-05-24 14:13:37,2018-05-24 14:16:11,2m - 33.730s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Positive Case/Login Success - Button,Firefox 57.0,,2018-05-24 14:13:38,2018-05-24 14:14:18,40.544s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:13:38,2018-05-24 14:14:04,25.753s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:14:04,2018-05-24 14:14:06,2.094s,PASSED
+waitForElementVisible,Firefox 57.0,,2018-05-24 14:14:06,2018-05-24 14:14:11,5.115s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:14:11,2018-05-24 14:14:18,7.074s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:14:18,2018-05-24 14:14:27,9.157s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:14:19,2018-05-24 14:14:19,0.002s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:14:19,2018-05-24 14:14:19,0.588s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:14:19,2018-05-24 14:14:27,8.154s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:14:28,2018-05-24 14:14:39,11.234s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:14:28,2018-05-24 14:14:28,0.000s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:14:28,2018-05-24 14:14:28,0.551s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:14:28,2018-05-24 14:14:39,10.582s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:14:39,2018-05-24 14:14:50,11.414s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:14:39,2018-05-24 14:14:39,0.001s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:14:39,2018-05-24 14:14:39,0.579s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:14:39,2018-05-24 14:14:50,10.688s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:14:50,2018-05-24 14:15:01,11.158s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:14:50,2018-05-24 14:14:50,0.001s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:14:50,2018-05-24 14:14:51,0.574s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:14:51,2018-05-24 14:15:01,10.483s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:15:01,2018-05-24 14:15:15,13.653s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:15:01,2018-05-24 14:15:01,0.000s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:15:01,2018-05-24 14:15:02,0.591s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:15:02,2018-05-24 14:15:15,12.973s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:15:15,2018-05-24 14:15:26,11.363s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:15:15,2018-05-24 14:15:15,0.001s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:15:15,2018-05-24 14:15:15,0.436s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:15:15,2018-05-24 14:15:26,10.841s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:15:26,2018-05-24 14:15:40,13.709s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:15:26,2018-05-24 14:15:26,0.000s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:15:26,2018-05-24 14:15:27,0.479s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:15:27,2018-05-24 14:15:40,13.104s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:15:40,2018-05-24 14:15:51,11.374s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:15:40,2018-05-24 14:15:40,0.000s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:15:40,2018-05-24 14:15:41,0.510s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:15:41,2018-05-24 14:15:51,10.784s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:15:51,2018-05-24 14:16:01,9.415s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:15:52,2018-05-24 14:15:52,0.001s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:15:52,2018-05-24 14:15:52,0.475s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:15:52,2018-05-24 14:16:01,8.851s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Firefox 57.0,,2018-05-24 14:16:01,2018-05-24 14:16:10,9.502s,PASSED
+Statement - If (openBrowser == false),Firefox 57.0,,2018-05-24 14:16:01,2018-05-24 14:16:01,0.000s,PASSED
+callTestCase,Firefox 57.0,,2018-05-24 14:16:01,2018-05-24 14:16:01,0.437s,PASSED
+Statement - switch (data_expectedresult.toString()),Firefox 57.0,,2018-05-24 14:16:01,2018-05-24 14:16:10,9.003s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Close Browser,Firefox 57.0,,2018-05-24 14:16:10,2018-05-24 14:16:11,0.641s,PASSED
+closeBrowser,Firefox 57.0,,2018-05-24 14:16:11,2018-05-24 14:16:11,0.448s,PASSED

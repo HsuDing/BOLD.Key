@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new activity - Select consent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0879cb5d-9394-41d7-a201-33c75d188870</testCaseGuid>
+   <variable>
+      <defaultValue>'Olivia Activity Bind'</defaultValue>
+      <description></description>
+      <id>ae11c132-13d5-4942-80c8-022dc6d7fde6</id>
+      <masked>false</masked>
+      <name>inputActivityName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Description full step'</defaultValue>
+      <description></description>
+      <id>e48d8d4a-1ab0-4eed-a57a-194fdca68961</id>
+      <masked>false</masked>
+      <name>inputDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>bbed0fcd-6db9-4fa4-8323-ad2890e159a8</id>
+      <masked>false</masked>
+      <name>inputChannels</name>
+   </variable>
+</TestCaseEntity>

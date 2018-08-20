@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BoldKey Login Page" time="70" tests="11" failures="0" errors="0">
+   <testsuite name="BoldKey Login Page" tests="11" failures="0" errors="0" time="70" timestamp="2018-05-23 11:48:48" hostname="olivia.chong - Olivia0517.mk.macrokiosk.com" id="Test Suites/BoldKey Login Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180523_114845"/>
+         <property name="logFiles" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180523_114845\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="olivia.chong - Olivia0517.mk.macrokiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.1.51"/>
+         <property name="sessionId" value="47cd82e87a1b1c2920a0cd7d58931865"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bold Key Login Page/Positive Case/Login Success - Button" classname="Test Cases/Bold Key Login Page/Positive Case/Login Success - Button" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:48:49 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Positive Case/Login Success - Button: Test Cases/Bold Key Login Page/Positive Case/Login Success - Button
+
+2018-05-23 11:48:49 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-23 11:48:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-23 11:48:50 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Open Browser: Test Cases/Bold Key Login Page/Open Browser
+
+2018-05-23 11:48:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-23 11:48:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-23 11:48:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-23 11:49:12 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-23 11:49:12 - [TEST_STEP][PASSED] - Statement - openBrowser = true: null
+
+2018-05-23 11:49:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-23 11:49:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:12 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:12 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:13 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:13 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:13 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (1)/login name' is visible
+
+2018-05-23 11:49:19 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (1)/login name' is visible
+
+2018-05-23 11:49:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Logout/Logout - Yes' successfully
+
+2018-05-23 11:49:19 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Logout/Logout - Yes: Test Cases/Bold Key Login Page/Logout/Logout - Yes
+
+2018-05-23 11:49:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/username_link' is visible
+
+2018-05-23 11:49:20 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/username_link' is visible
+
+2018-05-23 11:49:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/username_link' is clicked on
+
+2018-05-23 11:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/username_link' is clicked on
+
+2018-05-23 11:49:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/btn_logout' is clicked on
+
+2018-05-23 11:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/btn_logout' is clicked on
+
+2018-05-23 11:49:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/btn_yes' is visible
+
+2018-05-23 11:49:20 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/btn_yes' is visible
+
+2018-05-23 11:49:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/btn_yes' is clicked on
+
+2018-05-23 11:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_ (3)/btn_yes' is clicked on
+
+2018-05-23 11:49:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Logout/Logout - Yes' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:21 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:22 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - setText: Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:22 - [MESSAGE][PASSED] - Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:22 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - Statement - If (username.trim() == "" || password == ""): null
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-05-23 11:49:22 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): null
+
+2018-05-23 11:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is visible
+
+2018-05-23 11:49:23 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-23 11:49:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-23 11:49:23 - [TEST_STEP][PASSED] - Statement - invalidMsgAnd = false: null
+
+2018-05-23 11:49:23 - [TEST_STEP][PASSED] - Statement - invalidMsgOr = false: null
+
+2018-05-23 11:49:23 - [TEST_STEP][PASSED] - Statement - accountLock = false: null
+
+2018-05-23 11:49:23 - [TEST_STEP][PASSED] - Statement - If (verifyErrorMsg.compareTo(server_message) == 0): null
+
+2018-05-23 11:49:23 - [TEST_STEP][PASSED] - Statement - Else If (verifyErrorMsg.compareTo(server_message1) == 0): null
+
+2018-05-23 11:49:23 - [TEST_STEP][PASSED] - Statement - invalidMsgAnd = true: null
+
+2018-05-23 11:49:23 - [TEST_STEP][PASSED] - Statement - If (invalidMsgAnd == true || invalidMsgOr == true || accountLock == true): null
+
+2018-05-23 11:49:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 11:49:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 11:49:25 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-23 11:49:25 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-23 11:49:25 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:25 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-23 11:49:25 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-23 11:49:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:25 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:25 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:26 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:26 - [TEST_STEP][PASSED] - setText: Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:26 - [MESSAGE][PASSED] - Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:26 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-23 11:49:26 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-23 11:49:26 - [TEST_STEP][PASSED] - Statement - If (username.trim() == "" || password == ""): null
+
+2018-05-23 11:49:26 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-05-23 11:49:26 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): null
+
+2018-05-23 11:49:26 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is visible
+
+2018-05-23 11:49:26 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username or password.'
+
+2018-05-23 11:49:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username or password.'
+
+2018-05-23 11:49:27 - [TEST_STEP][PASSED] - Statement - invalidMsgAnd = false: null
+
+2018-05-23 11:49:27 - [TEST_STEP][PASSED] - Statement - invalidMsgOr = false: null
+
+2018-05-23 11:49:27 - [TEST_STEP][PASSED] - Statement - accountLock = false: null
+
+2018-05-23 11:49:27 - [TEST_STEP][PASSED] - Statement - If (verifyErrorMsg.compareTo(server_message) == 0): null
+
+2018-05-23 11:49:27 - [TEST_STEP][PASSED] - Statement - invalidMsgOr = true: null
+
+2018-05-23 11:49:27 - [TEST_STEP][PASSED] - Statement - If (invalidMsgAnd == true || invalidMsgOr == true || accountLock == true): null
+
+2018-05-23 11:49:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 11:49:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 11:49:29 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-23 11:49:29 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-23 11:49:29 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:29 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-23 11:49:29 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-23 11:49:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:29 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:29 - [TEST_STEP][PASSED] - setText: Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:29 - [MESSAGE][PASSED] - Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:29 - [TEST_STEP][PASSED] - setText: Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:30 - [MESSAGE][PASSED] - Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - If (username.trim() == "" || password == ""): null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): null
+
+2018-05-23 11:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is visible
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-23 11:49:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - invalidMsgAnd = false: null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - invalidMsgOr = false: null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - accountLock = false: null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - If (verifyErrorMsg.compareTo(server_message) == 0): null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - Else If (verifyErrorMsg.compareTo(server_message1) == 0): null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - invalidMsgAnd = true: null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - Statement - If (invalidMsgAnd == true || invalidMsgOr == true || accountLock == true): null
+
+2018-05-23 11:49:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 11:49:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 11:49:32 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-23 11:49:32 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-23 11:49:32 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:32 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-23 11:49:32 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-23 11:49:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:32 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:32 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:33 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - Statement - If (username.trim() == "" || password == ""): null
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - Statement - emptyUsername = false: null
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - Statement - emptyPassword = false: null
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message), 5)): null
+
+2018-05-23 11:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message' is visible
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - Statement - verifyUsernameMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message' is: 'The username field is required.'
+
+2018-05-23 11:49:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message' is: 'The username field is required.'
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'The username field is required.' and expected text 'The username field is required.' are matched  using regular expression
+
+2018-05-23 11:49:33 - [MESSAGE][PASSED] - Actual text 'The username field is required.' and expected text 'The username field is required.' are matched  using regular expression
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - Statement - emptyUsername = true: null
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - Statement - If (emptyUsername == true || emptyPassword == true): null
+
+2018-05-23 11:49:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 11:49:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 11:49:35 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-23 11:49:35 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-23 11:49:35 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:35 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-23 11:49:35 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-23 11:49:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:35 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:35 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:36 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:36 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:36 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-23 11:49:36 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-23 11:49:36 - [TEST_STEP][PASSED] - Statement - If (username.trim() == "" || password == ""): null
+
+2018-05-23 11:49:36 - [TEST_STEP][PASSED] - Statement - emptyUsername = false: null
+
+2018-05-23 11:49:36 - [TEST_STEP][PASSED] - Statement - emptyPassword = false: null
+
+2018-05-23 11:49:36 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message), 5)): Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/password_message' is visible
+
+2018-05-23 11:49:41 - [MESSAGE][WARNING] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message' is not visible after 5 second(s)
+
+2018-05-23 11:49:42 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/password_message' is visible
+
+2018-05-23 11:49:42 - [TEST_STEP][PASSED] - Statement - Else If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/password_message), 5)): null
+
+2018-05-23 11:49:42 - [TEST_STEP][PASSED] - Statement - verifyPasswordMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/password_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/password_message' is: 'The password field is required.'
+
+2018-05-23 11:49:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/password_message' is: 'The password field is required.'
+
+2018-05-23 11:49:42 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'The password field is required.' and expected text 'The password field is required.' are matched  using regular expression
+
+2018-05-23 11:49:42 - [MESSAGE][PASSED] - Actual text 'The password field is required.' and expected text 'The password field is required.' are matched  using regular expression
+
+2018-05-23 11:49:42 - [TEST_STEP][PASSED] - Statement - emptyPassword = true: null
+
+2018-05-23 11:49:42 - [TEST_STEP][PASSED] - Statement - If (emptyUsername == true || emptyPassword == true): null
+
+2018-05-23 11:49:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 11:49:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 11:49:44 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-23 11:49:44 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-23 11:49:44 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:44 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-23 11:49:44 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-23 11:49:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:44 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:44 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:44 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:44 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-23 11:49:44 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-23 11:49:45 - [TEST_STEP][PASSED] - Statement - If (username.trim() == "" || password == ""): null
+
+2018-05-23 11:49:45 - [TEST_STEP][PASSED] - Statement - emptyUsername = false: null
+
+2018-05-23 11:49:45 - [TEST_STEP][PASSED] - Statement - emptyPassword = false: null
+
+2018-05-23 11:49:45 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message), 5)): null
+
+2018-05-23 11:49:45 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message' is visible
+
+2018-05-23 11:49:45 - [TEST_STEP][PASSED] - Statement - verifyUsernameMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message' is: 'The username field is required.'
+
+2018-05-23 11:49:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/username_message' is: 'The username field is required.'
+
+2018-05-23 11:49:45 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'The username field is required.' and expected text 'The username field is required.' are matched  using regular expression
+
+2018-05-23 11:49:45 - [MESSAGE][PASSED] - Actual text 'The username field is required.' and expected text 'The username field is required.' are matched  using regular expression
+
+2018-05-23 11:49:45 - [TEST_STEP][PASSED] - Statement - emptyUsername = true: null
+
+2018-05-23 11:49:45 - [TEST_STEP][PASSED] - Statement - If (emptyUsername == true || emptyPassword == true): null
+
+2018-05-23 11:49:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 11:49:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 11:49:47 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-23 11:49:47 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-23 11:49:47 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:47 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-23 11:49:47 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-23 11:49:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:47 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:47 - [TEST_STEP][PASSED] - setText: Text 'console ' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:47 - [MESSAGE][PASSED] - Text 'console ' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:47 - [TEST_STEP][PASSED] - setText: Text 'PPP' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:48 - [MESSAGE][PASSED] - Text 'PPP' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:48 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-23 11:49:48 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-23 11:49:48 - [TEST_STEP][PASSED] - Statement - If (username.trim() == "" || password == ""): null
+
+2018-05-23 11:49:48 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-05-23 11:49:48 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): null
+
+2018-05-23 11:49:48 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is visible
+
+2018-05-23 11:49:48 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username or password.'
+
+2018-05-23 11:49:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username or password.'
+
+2018-05-23 11:49:49 - [TEST_STEP][PASSED] - Statement - invalidMsgAnd = false: null
+
+2018-05-23 11:49:49 - [TEST_STEP][PASSED] - Statement - invalidMsgOr = false: null
+
+2018-05-23 11:49:49 - [TEST_STEP][PASSED] - Statement - accountLock = false: null
+
+2018-05-23 11:49:49 - [TEST_STEP][PASSED] - Statement - If (verifyErrorMsg.compareTo(server_message) == 0): null
+
+2018-05-23 11:49:49 - [TEST_STEP][PASSED] - Statement - invalidMsgOr = true: null
+
+2018-05-23 11:49:49 - [TEST_STEP][PASSED] - Statement - If (invalidMsgAnd == true || invalidMsgOr == true || accountLock == true): null
+
+2018-05-23 11:49:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 11:49:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 11:49:51 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-23 11:49:51 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-23 11:49:51 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:51 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-23 11:49:51 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-23 11:49:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:51 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:51 - [TEST_STEP][PASSED] - setText: Text 'console' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:51 - [MESSAGE][PASSED] - Text 'console' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:51 - [TEST_STEP][PASSED] - setText: Text 'PPP' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:51 - [MESSAGE][PASSED] - Text 'PPP' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - If (username.trim() == "" || password == ""): null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): null
+
+2018-05-23 11:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is visible
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Unable to login. Account has been locked out.'
+
+2018-05-23 11:49:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Unable to login. Account has been locked out.'
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - invalidMsgAnd = false: null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - invalidMsgOr = false: null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - accountLock = false: null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - If (verifyErrorMsg.compareTo(server_message) == 0): null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - Else If (verifyErrorMsg.compareTo(server_message1) == 0): null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - Else If (verifyErrorMsg.compareTo(server_message2) == 0): null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - accountLock = true: null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - Statement - If (invalidMsgAnd == true || invalidMsgOr == true || accountLock == true): null
+
+2018-05-23 11:49:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 11:49:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 11:49:54 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-23 11:49:54 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-23 11:49:54 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:54 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-23 11:49:54 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-23 11:49:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:55 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-05-23 11:49:55 - [TEST_STEP][PASSED] - setText: Text 'console' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:55 - [MESSAGE][PASSED] - Text 'console' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-23 11:49:55 - [TEST_STEP][PASSED] - setText: Text 'PPP' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:55 - [MESSAGE][PASSED] - Text 'PPP' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-23 11:49:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-23 11:49:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-05-23 11:49:55 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-23 11:49:55 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-23 11:49:55 - [TEST_STEP][PASSED] - Statement - If (username.trim() == "" || password == ""): null
+
+2018-05-23 11:49:55 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-05-23 11:49:55 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): null
+
+2018-05-23 11:49:56 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is visible
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Unable to login. Account has been locked out.'
+
+2018-05-23 11:49:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Unable to login. Account has been locked out.'
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - Statement - invalidMsgAnd = false: null
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - Statement - invalidMsgOr = false: null
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - Statement - accountLock = false: null
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - Statement - If (verifyErrorMsg.compareTo(server_message) == 0): null
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - Statement - Else If (verifyErrorMsg.compareTo(server_message1) == 0): null
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - Statement - Else If (verifyErrorMsg.compareTo(server_message2) == 0): null
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - Statement - accountLock = true: null
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - Statement - If (invalidMsgAnd == true || invalidMsgOr == true || accountLock == true): null
+
+2018-05-23 11:49:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 11:49:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 11:49:58 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-23 11:49:58 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-23 11:49:58 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Close Browser" classname="Test Cases/Bold Key Login Page/Close Browser" status="PASSED">
+         <system-out><![CDATA[2018-05-23 11:49:58 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Close Browser: Test Cases/Bold Key Login Page/Close Browser
+
+2018-05-23 11:49:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-23 11:49:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-23 11:48:48 - [TEST_SUITE][PASSED] - BoldKey Login Page: Test Cases/Bold Key Login Page/Close Browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

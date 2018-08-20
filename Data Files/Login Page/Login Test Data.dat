@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Login Test Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c730b764-914c-428b-b371-79610b797b22</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>cwpreee P%4055word Invalid+username+and+password.</data>
+   <data>cwpreflat P%4055wor Invalid+username+or+password.</data>
+   <data>cwpreee P%4055wor Invalid+username+and+password.</data>
+   <data>null P%4055word The+username+field+is+required.</data>
+   <data>cwpreflat null The+password+field+is+required.</data>
+   <data>null null The+username+field+is+required.</data>
+   <data>console PPP null</data>
+   <data>console PPP null</data>
+   <data>console PPP null</data>
+   <data>null null null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Username</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Password</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Message</name>
+      <size>10</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

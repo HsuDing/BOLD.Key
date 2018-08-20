@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BoldKey Login Page" time="30" tests="1" failures="6" errors="0">
+   <testsuite name="BoldKey Login Page" tests="1" failures="6" errors="0" time="30" timestamp="2018-05-21 18:15:54" hostname="olivia.chong - Olivia0517.mk.macrokiosk.com" id="Test Suites/BoldKey Login Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180521_181547"/>
+         <property name="logFiles" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180521_181547\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="olivia.chong - Olivia0517.mk.macrokiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.2.72"/>
+         <property name="sessionId" value="11b0100f4a236947567b7317996c938d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-05-21 18:15:55 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:15:57 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:15:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-21 18:15:58 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Open Browser: Test Cases/Bold Key Login Page/Open Browser
+
+2018-05-21 18:15:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-21 18:16:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-21 18:16:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:16:13 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:16:13 - [TEST_STEP][PASSED] - Statement - openBrowser = true: null
+
+2018-05-21 18:16:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-21 18:16:13 - [TEST_STEP][PASSED] - Statement - openBrowser = true: null
+
+2018-05-21 18:16:13 - [TEST_STEP][PASSED] - setText: Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:16:14 - [MESSAGE][PASSED] - Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:16:14 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:16:15 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:16:15 - [TEST_STEP][PASSED] - Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:16:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:16:15 - [TEST_STEP][PASSED] - Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:16:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:16:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:16:16 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:16:16 - [TEST_STEP][PASSED] - Statement - Default: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:16:16 - [TEST_STEP][PASSED] - Statement - If (verifyUsername.trim() != "" || verifyPassword != ""): null
+
+2018-05-21 18:16:16 - [TEST_STEP][PASSED] - Statement - Else: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:16:16 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:16:16 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is present
+
+2018-05-21 18:16:16 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:16:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:16:16 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:16:16 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:15:55 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="PASSED">
+         <system-out><![CDATA[2018-05-21 18:16:17 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1
+
+2018-05-21 18:16:17 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:16:17 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:16:17 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:16:17 - [TEST_STEP][PASSED] - setText: Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:16:18 - [MESSAGE][PASSED] - Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:16:18 - [TEST_STEP][PASSED] - Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:16:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:16:18 - [TEST_STEP][PASSED] - Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:16:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:16:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:16:18 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): null
+
+2018-05-21 18:16:18 - [TEST_STEP][PASSED] - Statement - Default: null
+
+2018-05-21 18:16:18 - [TEST_STEP][PASSED] - Statement - If (verifyUsername.trim() != "" || verifyPassword != ""): null
+
+2018-05-21 18:16:18 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-05-21 18:16:18 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): null
+
+2018-05-21 18:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is present
+
+2018-05-21 18:16:18 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username or password.'
+
+2018-05-21 18:16:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username or password.'
+
+2018-05-21 18:16:19 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid username or password.' and expected text 'Invalid username or password.' are matched  using regular expression
+
+2018-05-21 18:16:19 - [MESSAGE][PASSED] - Actual text 'Invalid username or password.' and expected text 'Invalid username or password.' are matched  using regular expression
+
+2018-05-21 18:16:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-21 18:16:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-21 18:16:21 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-21 18:16:21 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-21 18:16:21 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-21 18:16:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-21 18:16:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-21 18:16:23 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:23 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:16:23 - [TEST_STEP][FAILED] - setText: Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:23 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-21 18:16:23 - [MESSAGE][FAILED] - Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:16:23 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-21 18:16:23 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:23 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:16:23 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:23 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-21 18:16:23 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:16:23 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'cwpreflat' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-21 18:16:23 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text 'cwpreflat' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:24 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:16:24 - [TEST_STEP][FAILED] - setText: Unable to set text 'cwpreflat' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-21 18:16:24 - [MESSAGE][FAILED] - Unable to set text 'cwpreflat' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:16:23 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text 'cwpreflat' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-21 18:16:24 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:24 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:16:24 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-21 18:16:24 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:16:24 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-21 18:16:24 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:24 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:16:24 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-21 18:16:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-21 18:16:24 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:16:24 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to set text '' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-21 18:15:54 - [TEST_SUITE][FAILED] - BoldKey Login Page: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-out>
+      <system-err><![CDATA[2018-05-21 18:15:54 - [TEST_SUITE][FAILED] - BoldKey Login Page: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-err>
+   </testsuite>
+</testsuites>

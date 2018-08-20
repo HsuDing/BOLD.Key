@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BoldKey Login Page,Chrome 66.0.3359.139,,2018-05-22 15:07:30,2018-05-22 15:08:34,1m - 4.600s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 15:07:30,2018-05-22 15:07:54,24.060s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 15:07:31,2018-05-22 15:07:50,18.643s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 15:07:50,2018-05-22 15:07:51,1.224s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 15:07:51,2018-05-22 15:07:54,3.434s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 15:07:54,2018-05-22 15:07:59,5.061s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 15:07:54,2018-05-22 15:07:54,0.006s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 15:07:54,2018-05-22 15:07:55,0.716s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 15:07:55,2018-05-22 15:07:59,4.169s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 15:07:59,2018-05-22 15:08:04,4.418s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 15:08:00,2018-05-22 15:08:00,0.000s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 15:08:00,2018-05-22 15:08:00,0.862s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 15:08:00,2018-05-22 15:08:04,3.288s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 15:08:04,2018-05-22 15:08:07,3.634s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 15:08:04,2018-05-22 15:08:04,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 15:08:04,2018-05-22 15:08:05,0.601s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 15:08:05,2018-05-22 15:08:07,2.839s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 15:08:07,2018-05-22 15:08:16,8.416s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 15:08:08,2018-05-22 15:08:08,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 15:08:08,2018-05-22 15:08:08,0.599s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 15:08:08,2018-05-22 15:08:16,7.679s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 15:08:16,2018-05-22 15:08:19,3.382s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 15:08:16,2018-05-22 15:08:16,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 15:08:16,2018-05-22 15:08:16,0.480s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 15:08:16,2018-05-22 15:08:19,2.788s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 15:08:19,2018-05-22 15:08:24,4.632s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 15:08:19,2018-05-22 15:08:19,0.002s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 15:08:19,2018-05-22 15:08:20,0.688s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 15:08:20,2018-05-22 15:08:24,3.827s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 15:08:24,2018-05-22 15:08:29,5.289s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 15:08:24,2018-05-22 15:08:24,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 15:08:24,2018-05-22 15:08:25,0.918s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 15:08:25,2018-05-22 15:08:29,4.247s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 15:08:29,2018-05-22 15:08:33,4.306s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 15:08:29,2018-05-22 15:08:29,0.000s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 15:08:29,2018-05-22 15:08:30,0.619s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 15:08:30,2018-05-22 15:08:33,3.603s,PASSED

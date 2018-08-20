@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Success - Enter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6c38897-e34e-484b-b46a-4b1ae99c2d01</testCaseGuid>
+   <variable>
+      <defaultValue>'cwpreflat'</defaultValue>
+      <description></description>
+      <id>7e4c72c8-f093-47d8-8e6e-76ab635dd45f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'P@55word'</defaultValue>
+      <description></description>
+      <id>35e1bc71-f247-49c3-8aab-98caaa64e591</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BoldKey Login Page,Chrome 66.0.3359.139,,2018-05-23 11:32:10,2018-05-23 11:34:10,2m - 0.431s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Positive Case/Login Success - Button,Chrome 66.0.3359.139,,2018-05-23 11:32:10,2018-05-23 11:32:36,25.060s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:32:11,2018-05-23 11:32:25,14.030s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:32:25,2018-05-23 11:32:26,1.012s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-23 11:32:26,2018-05-23 11:32:35,8.903s,PASSED
+Statement - username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BoldKey Login/Page_/Page_/Page_BOLD.Key - Login/input_txtusername)),Chrome 66.0.3359.139,,2018-05-23 11:32:35,2018-05-23 11:32:36,0.523s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Logout/Logout - Yes,Chrome 66.0.3359.139,,2018-05-23 11:32:36,2018-05-23 11:32:36,0.838s,FAILED
+click,Chrome 66.0.3359.139,,2018-05-23 11:32:36,2018-05-23 11:32:36,0.414s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-23 11:32:36,2018-05-23 11:33:04,27.163s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:32:37,2018-05-23 11:32:37,0.029s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:32:37,2018-05-23 11:33:04,26.640s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-23 11:33:04,2018-05-23 11:33:12,8.279s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:33:04,2018-05-23 11:33:04,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:33:04,2018-05-23 11:33:12,8.161s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-23 11:33:12,2018-05-23 11:33:20,8.252s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:33:12,2018-05-23 11:33:12,0.000s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:33:12,2018-05-23 11:33:20,8.124s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-23 11:33:20,2018-05-23 11:33:28,8.214s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:33:20,2018-05-23 11:33:20,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:33:20,2018-05-23 11:33:28,8.128s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-23 11:33:28,2018-05-23 11:33:36,8.205s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:33:28,2018-05-23 11:33:28,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:33:28,2018-05-23 11:33:36,8.118s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-23 11:33:36,2018-05-23 11:33:45,8.243s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:33:37,2018-05-23 11:33:37,0.002s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:33:37,2018-05-23 11:33:45,8.125s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-23 11:33:45,2018-05-23 11:33:53,8.212s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:33:45,2018-05-23 11:33:45,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:33:45,2018-05-23 11:33:53,8.115s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-23 11:33:53,2018-05-23 11:34:01,8.212s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:33:53,2018-05-23 11:33:53,0.000s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:33:53,2018-05-23 11:34:01,8.116s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-23 11:34:01,2018-05-23 11:34:09,8.185s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-23 11:34:01,2018-05-23 11:34:01,0.000s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-23 11:34:01,2018-05-23 11:34:09,8.118s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Close Browser,Chrome 66.0.3359.139,,2018-05-23 11:34:09,2018-05-23 11:34:10,0.728s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-23 11:34:09,2018-05-23 11:34:10,0.600s,PASSED

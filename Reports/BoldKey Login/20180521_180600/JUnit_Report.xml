@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BoldKey Login" time="46" tests="0" failures="1" errors="0">
+   <testsuite name="BoldKey Login" tests="0" failures="1" errors="0" time="46" timestamp="2018-05-21 18:06:06" hostname="olivia.chong - Olivia0517.mk.macrokiosk.com" id="Test Suites/BoldKey Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login\\20180521_180600"/>
+         <property name="logFiles" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login\\20180521_180600\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login\\20180521_180600\\1526897210936.png"/>
+         <property name="hostName" value="olivia.chong - Olivia0517.mk.macrokiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.2.72"/>
+         <property name="sessionId" value="d3442cd1ce42702174691506181d6418"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bold Key Login Page/Verify all Cases/All cases" classname="Test Cases/Bold Key Login Page/Verify all Cases/All cases" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-21 18:06:08 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Verify all Cases/All cases: Test Cases/Bold Key Login Page/Verify all Cases/All cases FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-21 18:06:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-21 18:06:09 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Open Browser: Test Cases/Bold Key Login Page/Open Browser
+
+2018-05-21 18:06:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-21 18:06:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-21 18:06:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:06:32 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:06:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-21 18:06:33 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-21 18:06:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-21 18:06:33 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Bold Key Login Page/Positive Case/Login Success - Button' (Root cause: Call Test Case 'Test Cases/Bold Key Login Page/Positive Case/Login Success - Button' failed)
+
+2018-05-21 18:06:33 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Positive Case/Login Success - Button: Test Cases/Bold Key Login Page/Positive Case/Login Success - Button FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-21 18:06:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-21 18:06:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-21 18:06:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:06:50 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:06:50 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-21 18:06:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/BoldKey Login/Page_/Page_/Page_BOLD.Key - Login/input_txtusername' does not exist
+
+2018-05-21 18:06:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-21 18:06:51 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login\\20180521_180600\\1526897210936.png]]
+
+2018-05-21 18:06:51 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Bold Key Login Page/Positive Case/Login Success - Button' (Root cause: Call Test Case 'Test Cases/Bold Key Login Page/Positive Case/Login Success - Button' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:06:08 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Verify all Cases/All cases: Test Cases/Bold Key Login Page/Verify all Cases/All cases FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-21 18:06:06 - [TEST_SUITE][FAILED] - BoldKey Login: Test Cases/Bold Key Login Page/Verify all Cases/All cases FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-05-21 18:06:06 - [TEST_SUITE][FAILED] - BoldKey Login: Test Cases/Bold Key Login Page/Verify all Cases/All cases FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

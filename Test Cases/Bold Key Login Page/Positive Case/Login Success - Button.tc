@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Success - Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af44cd2d-1792-4065-94b9-60c733181d06</testCaseGuid>
+   <variable>
+      <defaultValue>'cwpreflat'</defaultValue>
+      <description></description>
+      <id>5610cab0-ed51-4bfa-95bb-7144c34fed2f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'P@55word'</defaultValue>
+      <description></description>
+      <id>40e69205-a677-49f2-8cd6-dbb80fb9e490</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

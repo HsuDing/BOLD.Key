@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Activity Module - Add multiple template,,,2018-08-14 17:51:52,2018-08-14 17:52:18,26.162s,FAILED
+,,,,,,
+Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent,,,2018-08-14 17:51:52,2018-08-14 17:52:09,16.555s,FAILED
+callTestCase,,,2018-08-14 17:51:53,2018-08-14 17:52:09,15.987s,FAILED
+,,,,,,
+Test Cases/Boldkey Activity Module/Add Template Page/Add new template - Multiple,,,2018-08-14 17:52:09,2018-08-14 17:52:17,8.352s,FAILED
+setText,,,2018-08-14 17:52:09,2018-08-14 17:52:17,8.133s,FAILED

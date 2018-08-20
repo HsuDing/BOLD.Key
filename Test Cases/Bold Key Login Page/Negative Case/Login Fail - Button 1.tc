@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Fail - Button 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15a35da7-07d7-450d-aaa0-fd8cf0bdcecf</testCaseGuid>
+   <variable>
+      <defaultValue>'console'</defaultValue>
+      <description></description>
+      <id>58932289-d5a0-4468-a173-175c2a1d1582</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24fcc19c-127e-4f2a-8bde-bb74e4fefcb8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid username or password.'</defaultValue>
+      <description></description>
+      <id>f945ff99-d69f-4368-b507-995789b83745</id>
+      <masked>false</masked>
+      <name>server_message</name>
+   </variable>
+   <variable>
+      <defaultValue>'The username field is required.'</defaultValue>
+      <description></description>
+      <id>332488b2-8b68-48ff-b3f9-247056cd5034</id>
+      <masked>false</masked>
+      <name>username_message</name>
+   </variable>
+   <variable>
+      <defaultValue>'The password field is required.'</defaultValue>
+      <description></description>
+      <id>be1d1e19-eb7b-47d2-87c9-b514553dd3ac</id>
+      <masked>false</masked>
+      <name>password_message</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29c192aa-ad45-4756-901d-7f68ee1b7bb3</id>
+      <masked>false</masked>
+      <name>data_expectedresult</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid username and password.'</defaultValue>
+      <description></description>
+      <id>c1ab6861-3fff-4cad-932c-b1c89899e0e8</id>
+      <masked>false</masked>
+      <name>server_message1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Unable to login. Account has been locked out.'</defaultValue>
+      <description></description>
+      <id>8aa7d482-6627-451e-9bca-f047d037806a</id>
+      <masked>false</masked>
+      <name>server_message2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Login retries exceeded. Account has been locked out.'</defaultValue>
+      <description></description>
+      <id>f17f79b5-bb09-42f9-ba22-b9f928ee1f20</id>
+      <masked>false</masked>
+      <name>server_message3</name>
+   </variable>
+</TestCaseEntity>

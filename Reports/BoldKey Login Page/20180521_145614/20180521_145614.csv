@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BoldKey Login Page,Firefox 57.0,,2018-05-21 14:56:20,2018-05-21 14:58:43,2m - 22.871s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Page - Button 1,Firefox 57.0,,2018-05-21 14:56:21,2018-05-21 14:57:04,43.052s,FAILED
+openBrowser,Firefox 57.0,,2018-05-21 14:56:23,2018-05-21 14:56:57,33.781s,PASSED
+navigateToUrl,Firefox 57.0,,2018-05-21 14:56:57,2018-05-21 14:57:04,6.970s,PASSED
+setText,Firefox 57.0,,2018-05-21 14:57:04,2018-05-21 14:57:04,0.573s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Page - Button 1,Firefox 57.0,,2018-05-21 14:57:04,2018-05-21 14:57:23,18.420s,FAILED
+openBrowser,Firefox 57.0,,2018-05-21 14:57:05,2018-05-21 14:57:16,11.054s,PASSED
+navigateToUrl,Firefox 57.0,,2018-05-21 14:57:16,2018-05-21 14:57:23,6.966s,PASSED
+setText,Firefox 57.0,,2018-05-21 14:57:23,2018-05-21 14:57:23,0.210s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Page - Button 1,Firefox 57.0,,2018-05-21 14:57:23,2018-05-21 14:57:42,18.999s,FAILED
+openBrowser,Firefox 57.0,,2018-05-21 14:57:23,2018-05-21 14:57:34,10.613s,PASSED
+navigateToUrl,Firefox 57.0,,2018-05-21 14:57:34,2018-05-21 14:57:42,8.088s,PASSED
+setText,Firefox 57.0,,2018-05-21 14:57:42,2018-05-21 14:57:42,0.218s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Page - Button 1,Firefox 57.0,,2018-05-21 14:57:42,2018-05-21 14:57:59,17.268s,FAILED
+openBrowser,Firefox 57.0,,2018-05-21 14:57:42,2018-05-21 14:57:53,10.844s,PASSED
+navigateToUrl,Firefox 57.0,,2018-05-21 14:57:53,2018-05-21 14:57:59,6.175s,PASSED
+setText,Firefox 57.0,,2018-05-21 14:57:59,2018-05-21 14:57:59,0.199s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Page - Button 1,Firefox 57.0,,2018-05-21 14:57:59,2018-05-21 14:58:20,20.512s,FAILED
+openBrowser,Firefox 57.0,,2018-05-21 14:57:59,2018-05-21 14:58:10,10.945s,PASSED
+navigateToUrl,Firefox 57.0,,2018-05-21 14:58:10,2018-05-21 14:58:20,9.339s,PASSED
+setText,Firefox 57.0,,2018-05-21 14:58:20,2018-05-21 14:58:20,0.190s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Page - Button 1,Firefox 57.0,,2018-05-21 14:58:20,2018-05-21 14:58:42,22.102s,FAILED
+openBrowser,Firefox 57.0,,2018-05-21 14:58:20,2018-05-21 14:58:33,12.859s,PASSED
+navigateToUrl,Firefox 57.0,,2018-05-21 14:58:33,2018-05-21 14:58:42,8.998s,PASSED
+setText,Firefox 57.0,,2018-05-21 14:58:42,2018-05-21 14:58:42,0.191s,FAILED

@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BoldKey Login Page,Chrome 66.0.3359.139,,2018-05-21 18:12:52,2018-05-21 18:13:23,30.554s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-21 18:12:54,2018-05-21 18:13:13,19.417s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-21 18:12:56,2018-05-21 18:13:11,15.221s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:11,2018-05-21 18:13:12,0.856s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:12,2018-05-21 18:13:12,0.617s,PASSED
+Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)),Chrome 66.0.3359.139,,2018-05-21 18:13:12,2018-05-21 18:13:12,0.152s,PASSED
+Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)),Chrome 66.0.3359.139,,2018-05-21 18:13:12,2018-05-21 18:13:13,0.120s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-21 18:13:13,2018-05-21 18:13:13,0.323s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-21 18:13:13,2018-05-21 18:13:13,0.365s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-21 18:13:13,2018-05-21 18:13:15,1.835s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-21 18:13:14,2018-05-21 18:13:14,0.002s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:14,2018-05-21 18:13:14,0.506s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:14,2018-05-21 18:13:15,0.509s,PASSED
+Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)),Chrome 66.0.3359.139,,2018-05-21 18:13:15,2018-05-21 18:13:15,0.081s,PASSED
+Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)),Chrome 66.0.3359.139,,2018-05-21 18:13:15,2018-05-21 18:13:15,0.074s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-21 18:13:15,2018-05-21 18:13:15,0.182s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-21 18:13:15,2018-05-21 18:13:15,0.202s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-21 18:13:15,2018-05-21 18:13:17,1.411s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-21 18:13:15,2018-05-21 18:13:15,0.001s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:15,2018-05-21 18:13:16,0.356s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:16,2018-05-21 18:13:16,0.378s,PASSED
+Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)),Chrome 66.0.3359.139,,2018-05-21 18:13:16,2018-05-21 18:13:16,0.071s,PASSED
+Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)),Chrome 66.0.3359.139,,2018-05-21 18:13:16,2018-05-21 18:13:16,0.070s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-21 18:13:16,2018-05-21 18:13:16,0.137s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-21 18:13:16,2018-05-21 18:13:17,0.179s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-21 18:13:17,2018-05-21 18:13:18,1.147s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-21 18:13:17,2018-05-21 18:13:17,0.001s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:17,2018-05-21 18:13:17,0.214s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:17,2018-05-21 18:13:17,0.319s,PASSED
+Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)),Chrome 66.0.3359.139,,2018-05-21 18:13:17,2018-05-21 18:13:17,0.077s,PASSED
+Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)),Chrome 66.0.3359.139,,2018-05-21 18:13:17,2018-05-21 18:13:17,0.119s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-21 18:13:17,2018-05-21 18:13:18,0.134s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-21 18:13:18,2018-05-21 18:13:18,0.158s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-21 18:13:18,2018-05-21 18:13:19,1.377s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-21 18:13:18,2018-05-21 18:13:18,0.002s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:18,2018-05-21 18:13:18,0.304s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:18,2018-05-21 18:13:18,0.213s,PASSED
+Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)),Chrome 66.0.3359.139,,2018-05-21 18:13:18,2018-05-21 18:13:19,0.140s,PASSED
+Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)),Chrome 66.0.3359.139,,2018-05-21 18:13:19,2018-05-21 18:13:19,0.085s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-21 18:13:19,2018-05-21 18:13:19,0.213s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-21 18:13:19,2018-05-21 18:13:19,0.233s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-21 18:13:19,2018-05-21 18:13:21,1.480s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-21 18:13:19,2018-05-21 18:13:19,0.003s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:19,2018-05-21 18:13:20,0.376s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:20,2018-05-21 18:13:20,0.373s,PASSED
+Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)),Chrome 66.0.3359.139,,2018-05-21 18:13:20,2018-05-21 18:13:20,0.079s,PASSED
+Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)),Chrome 66.0.3359.139,,2018-05-21 18:13:20,2018-05-21 18:13:20,0.064s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-21 18:13:20,2018-05-21 18:13:20,0.160s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-21 18:13:20,2018-05-21 18:13:21,0.150s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-21 18:13:21,2018-05-21 18:13:22,0.948s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-21 18:13:21,2018-05-21 18:13:21,0.001s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:21,2018-05-21 18:13:21,0.183s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-21 18:13:21,2018-05-21 18:13:21,0.200s,PASSED
+Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)),Chrome 66.0.3359.139,,2018-05-21 18:13:21,2018-05-21 18:13:21,0.107s,PASSED
+Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)),Chrome 66.0.3359.139,,2018-05-21 18:13:21,2018-05-21 18:13:21,0.062s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-21 18:13:21,2018-05-21 18:13:21,0.117s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-21 18:13:21,2018-05-21 18:13:22,0.154s,PASSED

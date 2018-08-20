@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BoldKey Login" time="24" tests="0" failures="1" errors="0">
+   <testsuite name="BoldKey Login" tests="0" failures="1" errors="0" time="24" timestamp="2018-05-21 18:02:29" hostname="olivia.chong - Olivia0517.mk.macrokiosk.com" id="Test Suites/BoldKey Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login\\20180521_180223"/>
+         <property name="logFiles" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login\\20180521_180223\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login\\20180521_180223\\1526896971962.png"/>
+         <property name="hostName" value="olivia.chong - Olivia0517.mk.macrokiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.2.72"/>
+         <property name="sessionId" value="fabb64eb98b4570c9f6d8b29ffd88f94"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Page - Enter" classname="Test Cases/Bold Key Login Page/Negative Case/Login Page - Enter" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-21 18:02:30 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Page - Enter: Test Cases/Bold Key Login Page/Negative Case/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-21 18:02:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-21 18:02:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-21 18:02:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:02:51 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:02:51 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-21 18:02:51 - [MESSAGE][WARNING] - Test object with id 'Object Repository/BoldKey Login/Page_BOLD.Key - Login/input_txtusername' does not exist
+
+2018-05-21 18:02:51 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-21 18:02:52 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login\\20180521_180223\\1526896971962.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:02:30 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Page - Enter: Test Cases/Bold Key Login Page/Negative Case/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-21 18:02:29 - [TEST_SUITE][FAILED] - BoldKey Login: Test Cases/Bold Key Login Page/Negative Case/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-05-21 18:02:29 - [TEST_SUITE][FAILED] - BoldKey Login: Test Cases/Bold Key Login Page/Negative Case/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

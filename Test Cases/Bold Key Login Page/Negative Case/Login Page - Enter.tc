@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Page - Enter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9f0419a-5ec9-4270-b15f-19f31fd8d0ec</testCaseGuid>
+   <variable>
+      <defaultValue>'cwpreflat'</defaultValue>
+      <description></description>
+      <id>c3b40891-fbeb-4f7c-a06f-abe0866cbfb8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'P@55word'</defaultValue>
+      <description></description>
+      <id>de0c0bc4-bef8-4a9c-add8-561c093c2814</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid username and password.'</defaultValue>
+      <description></description>
+      <id>1e861269-0dc7-44e5-ae07-f340be5f4ca9</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+</TestCaseEntity>

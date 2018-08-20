@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>username_message</name>
+   <tag></tag>
+   <elementGuidId>3f3115c0-5292-4f68-853a-b528212619e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@ng-show = 'loginForm.txtusername.$invalid']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>loginForm.txtusername.$invalid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The username field is required.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;fixed-left login-page ng-scope&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;full-content-center&quot;]/div[@class=&quot;login-wrap animated flipInX&quot;]/div[@class=&quot;login-block&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-submitted&quot;]/div[@class=&quot;form-group login-input row&quot;]/div[@class=&quot;col-md-5 col-sm-5&quot;]/div[@class=&quot;form-group login-input&quot;]/div[1]/span[@class=&quot;text-danger&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

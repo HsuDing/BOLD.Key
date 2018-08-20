@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Activity Module - Add one template,Chrome 67.0.3396.99,,2018-08-14 17:34:43,2018-08-14 17:35:24,41.753s,PASSED
+,,,,,,
+Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent,Chrome 67.0.3396.99,,2018-08-14 17:34:43,2018-08-14 17:35:21,37.565s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-08-14 17:34:44,2018-08-14 17:35:01,16.854s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-08-14 17:35:01,2018-08-14 17:35:04,3.221s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-14 17:35:04,2018-08-14 17:35:15,11.295s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-14 17:35:15,2018-08-14 17:35:16,0.653s,PASSED
+setText,Chrome 67.0.3396.99,,2018-08-14 17:35:16,2018-08-14 17:35:16,0.432s,PASSED
+setText,Chrome 67.0.3396.99,,2018-08-14 17:35:16,2018-08-14 17:35:17,0.461s,PASSED
+delay,Chrome 67.0.3396.99,,2018-08-14 17:35:17,2018-08-14 17:35:19,2.003s,PASSED
+"Statement - If (inputChannels.toLowerCase() == ""false"")",Chrome 67.0.3396.99,,2018-08-14 17:35:19,2018-08-14 17:35:19,0.002s,PASSED
+"Statement - Else If (inputChannels.toLowerCase() == ""true"")",Chrome 67.0.3396.99,,2018-08-14 17:35:19,2018-08-14 17:35:19,0.258s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-14 17:35:19,2018-08-14 17:35:19,0.160s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-14 17:35:19,2018-08-14 17:35:21,1.599s,PASSED
+,,,,,,
+Test Cases/Boldkey Activity Module/Add Template Page/Add new template - One,Chrome 67.0.3396.99,,2018-08-14 17:35:21,2018-08-14 17:35:23,2.547s,PASSED
+setText,Chrome 67.0.3396.99,,2018-08-14 17:35:21,2018-08-14 17:35:22,0.417s,PASSED
+setText,Chrome 67.0.3396.99,,2018-08-14 17:35:22,2018-08-14 17:35:22,0.434s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-14 17:35:22,2018-08-14 17:35:22,0.124s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-14 17:35:22,2018-08-14 17:35:23,0.922s,PASSED

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BoldKey Login Page" time="39" tests="0" failures="7" errors="0">
+   <testsuite name="BoldKey Login Page" tests="0" failures="7" errors="0" time="39" timestamp="2018-05-21 18:25:07" hostname="olivia.chong - Olivia0517.mk.macrokiosk.com" id="Test Suites/BoldKey Login Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180521_182502"/>
+         <property name="logFiles" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180521_182502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="olivia.chong - Olivia0517.mk.macrokiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.2.72"/>
+         <property name="sessionId" value="6dc631c8fc8a33ea2bb7d10d6f256028"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-05-21 18:25:09 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:10 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-21 18:25:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-21 18:25:11 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Open Browser: Test Cases/Bold Key Login Page/Open Browser
+
+2018-05-21 18:25:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-21 18:25:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-21 18:25:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:25:33 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-21 18:25:33 - [TEST_STEP][PASSED] - Statement - openBrowser = true: null
+
+2018-05-21 18:25:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-05-21 18:25:33 - [TEST_STEP][PASSED] - setText: Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:35 - [MESSAGE][PASSED] - Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:35 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:35 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:35 - [TEST_STEP][PASSED] - Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:35 - [TEST_STEP][PASSED] - Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:36 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:36 - [TEST_STEP][PASSED] - Statement - Default: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:36 - [TEST_STEP][PASSED] - Statement - If (verifyUsername.trim() != "" || verifyPassword != ""): null
+
+2018-05-21 18:25:36 - [TEST_STEP][PASSED] - Statement - Else: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:36 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:36 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is present
+
+2018-05-21 18:25:36 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:37 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:37 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:25:09 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-05-21 18:25:37 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:37 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:25:37 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:38 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:38 - [TEST_STEP][PASSED] - setText: Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:38 - [MESSAGE][PASSED] - Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:38 - [TEST_STEP][PASSED] - Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:38 - [TEST_STEP][PASSED] - Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:39 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:39 - [TEST_STEP][PASSED] - Statement - Default: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:39 - [TEST_STEP][PASSED] - Statement - If (verifyUsername.trim() != "" || verifyPassword != ""): null
+
+2018-05-21 18:25:39 - [TEST_STEP][PASSED] - Statement - Else: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:39 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:39 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is present
+
+2018-05-21 18:25:39 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:39 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:39 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:25:37 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-05-21 18:25:39 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:39 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:25:39 - [TEST_STEP][PASSED] - setText: Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:39 - [MESSAGE][PASSED] - Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:39 - [TEST_STEP][PASSED] - setText: Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:40 - [MESSAGE][PASSED] - Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - Statement - Default: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - Statement - If (verifyUsername.trim() != "" || verifyPassword != ""): null
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - Statement - Else: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:40 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is present
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:40 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)
+
+2018-05-21 18:25:40 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:25:39 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-05-21 18:25:40 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:25:40 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:41 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - Statement - Default: Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - Statement - If (verifyUsername.trim() != "" || verifyPassword != ""): null
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - Statement - Else: Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:41 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is present
+
+2018-05-21 18:25:41 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:41 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:41 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:25:40 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Invalid username and password.' and expected text 'The password field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The password field is required.' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-05-21 18:25:41 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'The password field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The password field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:42 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:25:42 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:42 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:42 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:42 - [TEST_STEP][PASSED] - Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:42 - [TEST_STEP][PASSED] - Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:43 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): Unable to verify match between actual text 'Invalid username and password.' and expected text 'The password field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The password field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:43 - [TEST_STEP][PASSED] - Statement - Default: Unable to verify match between actual text 'Invalid username and password.' and expected text 'The password field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The password field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:43 - [TEST_STEP][PASSED] - Statement - If (verifyUsername.trim() != "" || verifyPassword != ""): null
+
+2018-05-21 18:25:43 - [TEST_STEP][PASSED] - Statement - Else: Unable to verify match between actual text 'Invalid username and password.' and expected text 'The password field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The password field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:43 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): Unable to verify match between actual text 'Invalid username and password.' and expected text 'The password field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The password field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:43 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is present
+
+2018-05-21 18:25:43 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:43 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Invalid username and password.' and expected text 'The password field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The password field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:43 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Invalid username and password.' and expected text 'The password field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The password field is required.' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:25:41 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'The password field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The password field is required.' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-05-21 18:25:43 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:43 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:25:43 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - Statement - Default: Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - Statement - If (verifyUsername.trim() != "" || verifyPassword != ""): null
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - Statement - Else: Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is present
+
+2018-05-21 18:25:44 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:44 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)
+
+2018-05-21 18:25:44 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:25:43 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'The username field is required.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'The username field is required.' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" classname="Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Invalid username and password.' and expected text '' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text '' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-05-21 18:25:44 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text '' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text '' are not matched using regular expression)
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - Statement - If (openBrowser == false): null
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - Statement - verifyUsername = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername' is: ''
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - Statement - verifyPassword = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword' is: ''
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - Statement - switch (data_expectedresult.toString()): Unable to verify match between actual text 'Invalid username and password.' and expected text '' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text '' are not matched using regular expression)
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - Statement - Default: Unable to verify match between actual text 'Invalid username and password.' and expected text '' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text '' are not matched using regular expression)
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - Statement - If (verifyUsername.trim() != "" || verifyPassword != ""): null
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - Statement - Else: Unable to verify match between actual text 'Invalid username and password.' and expected text '' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text '' are not matched using regular expression)
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message), 5)): Unable to verify match between actual text 'Invalid username and password.' and expected text '' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text '' are not matched using regular expression)
+
+2018-05-21 18:25:45 - [MESSAGE][PASSED] - Object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is present
+
+2018-05-21 18:25:45 - [TEST_STEP][PASSED] - Statement - verifyErrorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message)): Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login (2)/Page_BOLD.Key - Login/invalid_message' is: 'Invalid username and password.'
+
+2018-05-21 18:25:45 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Invalid username and password.' and expected text '' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text '' are not matched using regular expression)
+
+2018-05-21 18:25:45 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Invalid username and password.' and expected text '' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text '' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-05-21 18:25:44 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text '' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text '' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-21 18:25:07 - [TEST_SUITE][FAILED] - BoldKey Login Page: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-out>
+      <system-err><![CDATA[2018-05-21 18:25:07 - [TEST_SUITE][FAILED] - BoldKey Login Page: Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1 FAILED because (of) Unable to verify match between actual text 'Invalid username and password.' and expected text 'Invalid username or password.' using regular expression (Root cause: Actual text 'Invalid username and password.' and expected text 'Invalid username or password.' are not matched using regular expression)]]></system-err>
+   </testsuite>
+</testsuites>

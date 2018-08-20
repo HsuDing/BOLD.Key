@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BoldKey Login Page,Chrome 66.0.3359.139,,2018-05-22 11:57:22,2018-05-22 11:59:05,1m - 43.405s,FAILED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 11:57:22,2018-05-22 11:58:00,37.381s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 11:57:23,2018-05-22 11:57:56,32.362s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 11:57:56,2018-05-22 11:57:57,1.159s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 11:57:57,2018-05-22 11:58:00,3.045s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 11:58:00,2018-05-22 11:58:01,1.547s,FAILED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 11:58:00,2018-05-22 11:58:00,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 11:58:00,2018-05-22 11:58:01,0.792s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 11:58:01,2018-05-22 11:58:01,0.652s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 11:58:01,2018-05-22 11:58:05,3.222s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 11:58:01,2018-05-22 11:58:01,0.002s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 11:58:01,2018-05-22 11:58:02,0.713s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 11:58:02,2018-05-22 11:58:05,2.441s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 11:58:05,2018-05-22 11:58:11,6.375s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 11:58:05,2018-05-22 11:58:05,0.002s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 11:58:05,2018-05-22 11:58:06,1.017s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 11:58:06,2018-05-22 11:58:11,5.285s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 11:58:11,2018-05-22 11:58:17,6.030s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 11:58:11,2018-05-22 11:58:11,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 11:58:11,2018-05-22 11:58:12,0.770s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 11:58:12,2018-05-22 11:58:17,5.180s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 11:58:17,2018-05-22 11:58:23,6.434s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 11:58:17,2018-05-22 11:58:17,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 11:58:17,2018-05-22 11:58:18,1.240s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 11:58:18,2018-05-22 11:58:23,5.163s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Negative Case/Login Fail - Button 1,Chrome 66.0.3359.139,,2018-05-22 11:58:23,2018-05-22 11:58:29,5.659s,PASSED
+Statement - If (openBrowser == false),Chrome 66.0.3359.139,,2018-05-22 11:58:23,2018-05-22 11:58:23,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 11:58:23,2018-05-22 11:58:24,0.455s,PASSED
+Statement - switch (data_expectedresult.toString()),Chrome 66.0.3359.139,,2018-05-22 11:58:24,2018-05-22 11:58:29,5.174s,PASSED
+,,,,,,
+Test Cases/Bold Key Login Page/Positive Case/Login Success - Button,Chrome 66.0.3359.139,,2018-05-22 11:58:29,2018-05-22 11:59:05,35.450s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-22 11:58:29,2018-05-22 11:58:32,2.969s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-22 11:58:32,2018-05-22 11:58:57,25.073s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-22 11:58:57,2018-05-22 11:58:59,1.684s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-22 11:58:59,2018-05-22 11:59:04,5.200s,PASSED
+Statement - username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BoldKey Login/Page_/Page_/Page_BOLD.Key - Login/input_txtusername)),Chrome 66.0.3359.139,,2018-05-22 11:59:04,2018-05-22 11:59:05,0.270s,FAILED

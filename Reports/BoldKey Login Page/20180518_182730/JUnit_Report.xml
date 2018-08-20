@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BoldKey Login Page" time="242" tests="0" failures="12" errors="0">
+   <testsuite name="BoldKey Login Page" tests="0" failures="12" errors="0" time="242" timestamp="2018-05-18 18:27:32" hostname="olivia.chong - Olivia0517.mk.macrokiosk.com" id="Test Suites/BoldKey Login Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730"/>
+         <property name="logFiles" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639272227.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639287784.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639304019.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639321067.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639338642.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639353708.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639370278.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639389281.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639405513.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639427397.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639446247.png, C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639493672.png"/>
+         <property name="hostName" value="olivia.chong - Olivia0517.mk.macrokiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.2.72"/>
+         <property name="sessionId" value="52606df752a14579cdb15eb099936f01"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Enter" classname="Test Cases/Bold Key Login Page/Login Page - Enter" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-18 18:27:32 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:27:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:27:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:27:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:27:52 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:27:52 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:27:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/BoldKey Login/Page_BOLD.Key - Login/input_txtusername' does not exist
+
+2018-05-18 18:27:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-18 18:27:52 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639272227.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:27:32 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Enter" classname="Test Cases/Bold Key Login Page/Login Page - Enter" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-18 18:27:52 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:27:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:27:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:27:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:27:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:28:07 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:28:07 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:28:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/BoldKey Login/Page_BOLD.Key - Login/input_txtusername' does not exist
+
+2018-05-18 18:28:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-18 18:28:08 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639287784.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:27:52 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Enter" classname="Test Cases/Bold Key Login Page/Login Page - Enter" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-18 18:28:08 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:28:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:28:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:28:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:28:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:28:24 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:28:24 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:28:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/BoldKey Login/Page_BOLD.Key - Login/input_txtusername' does not exist
+
+2018-05-18 18:28:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-18 18:28:24 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639304019.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:28:08 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Enter" classname="Test Cases/Bold Key Login Page/Login Page - Enter" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-18 18:28:24 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:28:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:28:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:28:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:28:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:28:41 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:28:41 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:28:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/BoldKey Login/Page_BOLD.Key - Login/input_txtusername' does not exist
+
+2018-05-18 18:28:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-18 18:28:41 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639321067.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:28:24 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Enter" classname="Test Cases/Bold Key Login Page/Login Page - Enter" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-18 18:28:41 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:28:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:28:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:28:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:28:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:28:58 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:28:58 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:28:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/BoldKey Login/Page_BOLD.Key - Login/input_txtusername' does not exist
+
+2018-05-18 18:28:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-18 18:28:58 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639338642.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:28:41 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Enter" classname="Test Cases/Bold Key Login Page/Login Page - Enter" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-18 18:28:58 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:28:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:28:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:29:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:29:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:29:13 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:29:13 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-18 18:29:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/BoldKey Login/Page_BOLD.Key - Login/input_txtusername' does not exist
+
+2018-05-18 18:29:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-18 18:29:13 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639353708.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:28:58 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Enter: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Button" classname="Test Cases/Bold Key Login Page/Login Page - Button" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )"/>
+         <system-out><![CDATA[2018-05-18 18:29:13 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )
+
+2018-05-18 18:29:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:29:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:29:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:29:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:29:29 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:29:29 - [TEST_STEP][PASSED] - setText: Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:29:29 - [MESSAGE][PASSED] - Text 'cwpreee' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:29:29 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:29:29 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:29:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:29:30 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )
+
+2018-05-18 18:29:30 - [MESSAGE][FAILED] - Text 'Invalid username or password.' is not present on page 
+
+2018-05-18 18:29:30 - [MESSAGE][FAILED] - Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639370278.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:29:13 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Button" classname="Test Cases/Bold Key Login Page/Login Page - Button" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )"/>
+         <system-out><![CDATA[2018-05-18 18:29:30 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )
+
+2018-05-18 18:29:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:29:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:29:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:29:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:29:48 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:29:48 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:29:48 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:29:48 - [TEST_STEP][PASSED] - setText: Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:29:48 - [MESSAGE][PASSED] - Text 'P@55wor' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:29:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:29:49 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )
+
+2018-05-18 18:29:49 - [MESSAGE][FAILED] - Text 'Invalid username or password.' is not present on page 
+
+2018-05-18 18:29:49 - [MESSAGE][FAILED] - Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639389281.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:29:30 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to verify text 'Invalid username or password.' is present  (Root cause: Text 'Invalid username or password.' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Button" classname="Test Cases/Bold Key Login Page/Login Page - Button" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5efcbf6bf315708286f2c09ff84f4bef)"/>
+         <system-out><![CDATA[2018-05-18 18:29:49 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5efcbf6bf315708286f2c09ff84f4bef)
+
+2018-05-18 18:29:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:29:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:29:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:29:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:30:05 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:30:05 - [TEST_STEP][FAILED] - setText: Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5efcbf6bf315708286f2c09ff84f4bef)
+
+2018-05-18 18:30:05 - [MESSAGE][FAILED] - Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5efcbf6bf315708286f2c09ff84f4bef)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639405513.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:29:49 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to set text 'cwpreee' of object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'OLIVIA0517', ip: '192.168.2.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\OLIVIA~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5efcbf6bf315708286f2c09ff84f4bef)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Button" classname="Test Cases/Bold Key Login Page/Login Page - Button" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )"/>
+         <system-out><![CDATA[2018-05-18 18:30:05 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )
+
+2018-05-18 18:30:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:30:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:30:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:30:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:30:21 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:30:21 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:30:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:30:22 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:30:22 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:30:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:30:27 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )
+
+2018-05-18 18:30:27 - [MESSAGE][FAILED] - Text 'Invalid username and password.' is not present on page 
+
+2018-05-18 18:30:27 - [MESSAGE][FAILED] - Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639427397.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:30:05 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Button" classname="Test Cases/Bold Key Login Page/Login Page - Button" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )"/>
+         <system-out><![CDATA[2018-05-18 18:30:27 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )
+
+2018-05-18 18:30:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:30:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:30:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:30:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:30:45 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:30:45 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:30:45 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:30:45 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:30:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:30:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:30:46 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )
+
+2018-05-18 18:30:46 - [MESSAGE][FAILED] - Text 'Invalid username and password.' is not present on page 
+
+2018-05-18 18:30:46 - [MESSAGE][FAILED] - Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639446247.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:30:27 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to verify text 'Invalid username and password.' is present  (Root cause: Text 'Invalid username and password.' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Bold Key Login Page/Login Page - Button" classname="Test Cases/Bold Key Login Page/Login Page - Button" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' located by 'By.xpath: //a[@href = '#' and (text() = 'cwpreflat' or . = 'cwpreflat')]' not found)"/>
+         <system-out><![CDATA[2018-05-18 18:30:46 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to click on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' located by 'By.xpath: //a[@href = '#' and (text() = 'cwpreflat' or . = 'cwpreflat')]' not found)
+
+2018-05-18 18:30:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 18:30:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 18:30:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 18:30:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:31:02 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-05-18 18:31:02 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:31:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtusername'
+
+2018-05-18 18:31:02 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:31:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/input_txtpassword'
+
+2018-05-18 18:31:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_BOLD.Key - Login/button_LOGIN' is clicked on
+
+2018-05-18 18:31:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text '' is present on page 
+
+2018-05-18 18:31:03 - [MESSAGE][PASSED] - Text '' is present on page 
+
+2018-05-18 18:31:03 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' located by 'By.xpath: //a[@href = '#' and (text() = 'cwpreflat' or . = 'cwpreflat')]' not found)
+
+2018-05-18 18:31:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' located by 'By.xpath: //a[@href = '#' and (text() = 'cwpreflat' or . = 'cwpreflat')]' not found)
+[[ATTACHMENT|C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\BoldKey Login Page\\20180518_182730\\1526639493672.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 18:30:46 - [TEST_CASE][FAILED] - Test Cases/Bold Key Login Page/Login Page - Button: Test Cases/Bold Key Login Page/Login Page - Button FAILED because (of) Unable to click on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/Page_/a_cwpreflat' located by 'By.xpath: //a[@href = '#' and (text() = 'cwpreflat' or . = 'cwpreflat')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-18 18:27:32 - [TEST_SUITE][FAILED] - BoldKey Login Page: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-05-18 18:27:32 - [TEST_SUITE][FAILED] - BoldKey Login Page: Test Cases/Bold Key Login Page/Login Page - Enter FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

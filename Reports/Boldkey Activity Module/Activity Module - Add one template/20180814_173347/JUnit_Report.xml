@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Activity Module - Add one template" time="46" tests="2" failures="0" errors="0">
+   <testsuite name="Activity Module - Add one template" tests="2" failures="0" errors="0" time="46" timestamp="2018-08-14 17:33:49" hostname="olivia.chong - Olivia0517.mk.macrokiosk.com" id="Test Suites/Boldkey Activity Module/Activity Module - Add one template">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\Boldkey Activity Module\\Activity Module - Add one template\\20180814_173347"/>
+         <property name="logFiles" value="C:\\Users\\olivia.chong\\Katalon Studio\\BoldKey\\Reports\\Boldkey Activity Module\\Activity Module - Add one template\\20180814_173347\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="olivia.chong - Olivia0517.mk.macrokiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.2.72"/>
+         <property name="sessionId" value="47ce91fb5c7c4a39ed53e53cb97c971a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent" classname="Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent" status="PASSED">
+         <system-out><![CDATA[2018-08-14 17:33:50 - [TEST_CASE][PASSED] - Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent: Test Cases/Boldkey Activity Module/Add Activity Page/Add new activity - Select consent
+
+2018-08-14 17:33:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-08-14 17:33:51 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Open Browser: Test Cases/Bold Key Login Page/Open Browser
+
+2018-08-14 17:33:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-14 17:33:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-14 17:33:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-08-14 17:34:09 - [MESSAGE][PASSED] - Navigate to 'http://sit.boldkey.cc/Web/login' successfully
+
+2018-08-14 17:34:09 - [TEST_STEP][PASSED] - Statement - openBrowser = true: null
+
+2018-08-14 17:34:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Open Browser' successfully
+
+2018-08-14 17:34:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-08-14 17:34:09 - [TEST_CASE][PASSED] - Test Cases/Bold Key Login Page/Login Action/Action Test Case: Test Cases/Bold Key Login Page/Login Action/Action Test Case
+
+2018-08-14 17:34:09 - [TEST_STEP][PASSED] - setText: Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-08-14 17:34:10 - [MESSAGE][PASSED] - Text 'cwpreflat' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtusername'
+
+2018-08-14 17:34:10 - [TEST_STEP][PASSED] - setText: Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-08-14 17:34:10 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/input_txtpassword'
+
+2018-08-14 17:34:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-08-14 17:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/BoldKey Login/Page_BOLD.Key - Login - BUTTON/button_LOGIN' is clicked on
+
+2018-08-14 17:34:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-14 17:34:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-14 17:34:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Bold Key Login Page/Login Action/Action Test Case' successfully
+
+2018-08-14 17:34:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Activity/a_Activity (4)' is clicked on
+
+2018-08-14 17:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Activity/a_Activity (4)' is clicked on
+
+2018-08-14 17:34:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_Activity (4)' is clicked on
+
+2018-08-14 17:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_Activity (4)' is clicked on
+
+2018-08-14 17:34:28 - [TEST_STEP][PASSED] - setText: Text 'Olivia Activity Bind' is set on object 'Object Repository/Boldkey Activity Listing/Add Activity/input_txt_ActivityName (1)'
+
+2018-08-14 17:34:28 - [MESSAGE][PASSED] - Text 'Olivia Activity Bind' is set on object 'Object Repository/Boldkey Activity Listing/Add Activity/input_txt_ActivityName (1)'
+
+2018-08-14 17:34:28 - [TEST_STEP][PASSED] - setText: Text 'Test Description full step' is set on object 'Object Repository/Boldkey Activity Listing/Add Activity/input_txt_ActivityDescription (1)'
+
+2018-08-14 17:34:29 - [MESSAGE][PASSED] - Text 'Test Description full step' is set on object 'Object Repository/Boldkey Activity Listing/Add Activity/input_txt_ActivityDescription (1)'
+
+2018-08-14 17:34:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-14 17:34:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-14 17:34:31 - [TEST_STEP][PASSED] - Statement - If (inputChannels.toLowerCase() == "false"): null
+
+2018-08-14 17:34:31 - [TEST_STEP][PASSED] - Statement - Else If (inputChannels.toLowerCase() == "true"): Object: 'Object Repository/checkbox_consent' is clicked on
+
+2018-08-14 17:34:31 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/checkbox_consent), 2, OPTIONAL)): Object: 'Object Repository/checkbox_consent' is clicked on
+
+2018-08-14 17:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/checkbox_consent' is not checked
+
+2018-08-14 17:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/checkbox_consent' is clicked on
+
+2018-08-14 17:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/checkbox_consent' is clicked on
+
+2018-08-14 17:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_Next (4)' is clicked on
+
+2018-08-14 17:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_Next (4)' is clicked on
+
+2018-08-14 17:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_OK (1)' is clicked on
+
+2018-08-14 17:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Activity/button_OK (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boldkey Activity Module/Add Template Page/Add new template - One" classname="Test Cases/Boldkey Activity Module/Add Template Page/Add new template - One" status="PASSED">
+         <system-out><![CDATA[2018-08-14 17:34:32 - [TEST_CASE][PASSED] - Test Cases/Boldkey Activity Module/Add Template Page/Add new template - One: Test Cases/Boldkey Activity Module/Add Template Page/Add new template - One
+
+2018-08-14 17:34:33 - [TEST_STEP][PASSED] - setText: Text 'TestMul1' is set on object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_template_name (2)'
+
+2018-08-14 17:34:33 - [MESSAGE][PASSED] - Text 'TestMul1' is set on object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_template_name (2)'
+
+2018-08-14 17:34:33 - [TEST_STEP][PASSED] - setText: Text 'Testing Multiple template 1' is set on object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_message_Title (2)'
+
+2018-08-14 17:34:33 - [MESSAGE][PASSED] - Text 'Testing Multiple template 1' is set on object 'Object Repository/Boldkey Activity Listing/Add Template/input_txt_message_Title (2)'
+
+2018-08-14 17:34:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Template/button_Save (2)' is clicked on
+
+2018-08-14 17:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Template/button_Save (2)' is clicked on
+
+2018-08-14 17:34:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Boldkey Activity Listing/Add Template/button_OK (2)' is clicked on
+
+2018-08-14 17:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Boldkey Activity Listing/Add Template/button_OK (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-14 17:33:49 - [TEST_SUITE][PASSED] - Activity Module - Add one template: Test Cases/Boldkey Activity Module/Add Template Page/Add new template - One]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
