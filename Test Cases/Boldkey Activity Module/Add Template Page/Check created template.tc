@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c857384b-557a-451e-8862-21e621d648ab</testCaseGuid>
+   <variable>
+      <defaultValue>'130'</defaultValue>
+      <description></description>
+      <id>0ea6c09e-252d-45f9-b5e0-1ec0b6991492</id>
+      <masked>false</masked>
+      <name>ValidityPeriod</name>
+   </variable>
 </TestCaseEntity>

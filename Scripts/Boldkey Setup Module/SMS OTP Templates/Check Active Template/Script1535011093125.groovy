@@ -18,26 +18,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-WebUI.callTestCase(findTestCase('Bold Key Login Page/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Bold Key Login Page/Login Action/Action Test Case'), [('username') : 'cwpreflat', ('password') : 'P@55word'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Boldkey Setup/a_Setup'))
-
-WebUI.click(findTestObject('Boldkey Setup/a_QR Code Setup'))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Boldkey Setup/input_timeValid'), ValidityPeriod)
-
-WebUI.click(findTestObject('Boldkey Setup/button_Save'))
-
-WebUI.click(findTestObject('Boldkey Setup/button_OK'))
-
-WebUI.closeBrowser()
 

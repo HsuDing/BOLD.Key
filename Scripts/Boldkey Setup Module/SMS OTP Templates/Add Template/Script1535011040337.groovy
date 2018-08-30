@@ -20,24 +20,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Bold Key Login Page/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('Bold Key Login Page/Login Action/Action Test Case'), [('username') : 'cwpreflat', ('password') : 'P@55word'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Boldkey Setup/SMS OTP Template/a_Setup'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Boldkey Setup/SMS OTP Template/span_SMS OTP Templates'))
 
-WebUI.click(findTestObject('Boldkey Setup/a_Setup'))
+WebUI.click(findTestObject('Boldkey Setup/SMS OTP Template/a_New Template'))
 
-WebUI.click(findTestObject('Boldkey Setup/a_QR Code Setup'))
+WebUI.setText(findTestObject('Boldkey Setup/SMS OTP Template/input_txt_template_name'), 'TestAutoMate1')
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Boldkey Setup/SMS OTP Template/input_txt_description'), 'Testing for automation')
 
-WebUI.setText(findTestObject('Boldkey Setup/input_timeValid'), ValidityPeriod)
+WebUI.selectOptionByValue(findTestObject('Boldkey Setup/SMS OTP Template/select_Alphabet'), '1', true)
 
-WebUI.click(findTestObject('Boldkey Setup/button_Save'))
+WebUI.setText(findTestObject('Boldkey Setup/SMS OTP Template/input_txt_no_valid_attempts'), '3')
 
-WebUI.click(findTestObject('Boldkey Setup/button_OK'))
+WebUI.setText(findTestObject('Boldkey Setup/SMS OTP Template/input_txt_validity_period'), '120')
+
+WebUI.setText(findTestObject('Boldkey Setup/SMS OTP Template/input_txt_sender_id'), 'TrustedOli')
+
+WebUI.click(findTestObject('Boldkey Setup/SMS OTP Template/button_Save'))
+
+WebUI.click(findTestObject('Boldkey Setup/SMS OTP Template/button_OK'))
 
 WebUI.closeBrowser()
 
